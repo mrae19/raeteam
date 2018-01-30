@@ -30,14 +30,14 @@ h6 {
   font-family: 'Nunita', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 a {
-  color: #0375c9;
+  color: yellow;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
-    color: yellow;
+    color: #0375c9;
     cursor: pointer;
     text-decoration: none; }
 
@@ -380,21 +380,21 @@ a .banner:hover {
 }
 
 .img-wrap {
-  background: #0375c9;
+  border: 4px solid yellow;
   margin-top: 40px;
+  margin-left: -20px;
   position: relative;
   width: 100%;
   height: 340px;
-  border-radius: 10px;
 }
 
 .intro-photo {
-  width: 100%;
-  border: 4px solid yellow;
-  margin-top: -30px;
-  margin-left: -20px;
+  width: 100%;  
+  margin-top: 20px;
+  margin-left: 20px;
   position: absolute;
-  border-radius: 10px;
+  box-shadow: 0px 20px 100px 10px #000;
+  z-index: -999;
 }
 
 .mega-title {
@@ -435,6 +435,7 @@ a .banner:hover {
   font-family: 'Permanent Marker';
   margin: 10px 0px;
   text-align: center;
+  color: yellow;
 }
 
 
