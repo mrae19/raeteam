@@ -5,8 +5,13 @@
  */
 body {
   font-size: 20px;
-  color: #212529;
-  font-family: 'Open Sans', 'Times New Roman', serif; }
+  color: white;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-weight: 200;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url(../img/black-bike.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  }
 
 p {
   line-height: 1.5;
@@ -21,7 +26,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Nunita', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 a {
   color: #212529;
@@ -52,12 +57,12 @@ blockquote {
 
 ::-moz-selection {
   color: #fff;
-  background: #0085A1;
+  background: #0075C9;
   text-shadow: none; }
 
 ::selection {
   color: #fff;
-  background: #0085A1;
+  background: #0075C9;
   text-shadow: none; }
 
 img::selection {
@@ -69,7 +74,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #0085A1; }
+  -webkit-tap-highlight-color: black; }
 
 #mainNav {
   position: absolute;
@@ -322,3 +327,94 @@ footer {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px; }
+
+/*Custom Code*/
+
+.banner {
+  height: 60px;
+  background: #0075C9;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.donate-button {
+  float: right;
+  margin-top: -54px;  
+}
+
+.message {
+  font-size: 16px;
+  width: 80%;
+  padding: 16px;
+}
+.intro-video {
+  margin-top: 40px;
+}
+
+.mega-title {
+  font-size: 6em;
+  line-height: 1em;
+  font-family: 'Permanent Marker', 'Nunito';
+  margin-top: 160px;
+}
+
+.banner-quote {
+  background: #0075C9;
+  color: white;
+  font-size: 28px;
+  padding: 10px 30px;
+  font-family: 'Permanent Marker';
+  letter-spacing: 0.8px;
+  margin-top: 80px;
+}
+
+.riding-for-title {
+  text-align: center;
+  font-family: 'Permanent Marker';
+  font-size: 50px;
+}
+
+.riding-for {
+  /*background: rgba(0,0,0,0.5);*/
+  margin-top: 80px;
+}
+
+.rider-name {
+  font-size: 1.5em;
+  font-family: 'Permanent Marker';
+  margin: 10px 0px;
+  text-align: center;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: black;  
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        background: rgba(255,255,255,0.2);
+}
+
+
