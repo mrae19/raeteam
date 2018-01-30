@@ -469,3 +469,53 @@ a .banner:hover {
 }
 
 
+/*Responsive - Mobile*/
+
+@media only screen and (max-width: 620px) {
+    body {
+        background-color: black;
+    }
+
+    .mega-title {
+      margin-top: 70px;
+      font-size: 60px;
+      padding: 30px;    
+    }
+
+    .img-wrap {
+      border: 4px solid yellow;
+      margin-top: -50px;
+      margin-left: 0px;
+      position: relative;
+      width: 100%;
+      height: 440px;
+    }
+
+    .intro-photo {
+      width: 90%;
+    }
+
+    .intro-text {
+      margin-top: 60px;
+    }
+
+    .banner-quote {
+      font-size: 16px;
+      background-size:120%;
+      height: 50vh;
+      padding: 10% 50px;
+      margin-top: 20px;
+    }
+
+    .riding-for {
+      height: 60vh;
+      margin-bottom: 60px;
+    }
+
+    .riding-for-title {
+      font-size: 40px;
+    }
+
+}
+
+
