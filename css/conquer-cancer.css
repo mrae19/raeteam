@@ -11,6 +11,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url(../img/black-bike.jpg);
   background-size: 100%;
   background-attachment: fixed;
+  overflow-x: hidden;
   }
 
 p {
@@ -330,12 +331,23 @@ footer {
 
 /*Custom Code*/
 
-.banner {
+
+
+a .banner {
   height: 60px;
   background: #0075C9;
+  color: white;
+  cursor: pointer;
   width: 100%;
   position: fixed;
+  bottom: 0px;
   z-index: 1000;
+}
+
+a .banner:hover {
+  background-color: yellow;
+  color: black;
+  transition: color 0.2s, background-color 0.2s;
 }
 
 .donate-button {
@@ -344,9 +356,12 @@ footer {
 }
 
 .message {
-  font-size: 16px;
-  width: 80%;
+  font-size: 18px;
+  letter-spacing: 0.5px;
   padding: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
 }
 .intro-video {
   margin-top: 40px;
@@ -360,13 +375,17 @@ footer {
 }
 
 .banner-quote {
-  background: #0075C9;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 117, 201, 0.2)), url(../img/handlebars-side.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
   color: white;
-  font-size: 28px;
-  padding: 10px 30px;
+  font-size: 40px;
+  padding: 10% 100px;
   font-family: 'Permanent Marker';
   letter-spacing: 0.8px;
   margin-top: 80px;
+  height: 100vh;
 }
 
 .riding-for-title {
@@ -377,7 +396,8 @@ footer {
 
 .riding-for {
   /*background: rgba(0,0,0,0.5);*/
-  margin-top: 80px;
+ padding: 10% 20px;
+  height: 85vh;
 }
 
 .rider-name {
